@@ -42,8 +42,8 @@ acorn@^3.0.4:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
 acorn@^5.2.1:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.4.1.tgz#fdc58d9d17f4a4e98d102ded826a9b9759125102"
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.5.0.tgz#1abb587fbf051f94e3de20e6b26ef910b1828298"
 
 aggregate-error@^0.1.0:
   version "0.1.0"
@@ -1876,7 +1876,7 @@ entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
-errno@^0.1.4:
+errno@~0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/errno/-/errno-0.1.7.tgz#4684d71779ad39af177e3f007996f7c67c852618"
   dependencies:
@@ -1914,8 +1914,8 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
 escodegen-wallaby@^1.6.7:
-  version "1.6.17"
-  resolved "https://registry.yarnpkg.com/escodegen-wallaby/-/escodegen-wallaby-1.6.17.tgz#3e1f334884d4214c94309cf734ec7cfa0b3d438d"
+  version "1.6.18"
+  resolved "https://registry.yarnpkg.com/escodegen-wallaby/-/escodegen-wallaby-1.6.18.tgz#95a41e2fdc88687466e43550c7bf136386fd4363"
   dependencies:
     esprima "^2.7.1"
     estraverse "^1.9.1"
@@ -2060,8 +2060,8 @@ fancy-log@^1.1.0:
     time-stamp "^1.0.0"
 
 fast-deep-equal@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.0.0.tgz#96256a3bc975595eb36d82e9929d060d893439ff"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz#c053477817c86b51daa853c81e059b733d023614"
 
 fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
@@ -3461,8 +3461,8 @@ mv@^2.1.1:
     rimraf "~2.4.0"
 
 nan@^2.0.5, nan@^2.3.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.8.0.tgz#ed715f3fe9de02b57a5e6252d90a96675e1f085a"
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.9.2.tgz#f564d75f5f8f36a6d9456cca7a6c4fe488ab7866"
 
 nan@~2.4.0:
   version "2.4.0"
@@ -3519,8 +3519,8 @@ node-pre-gyp@^0.6.39:
     tar-pack "^3.4.0"
 
 node-simctl@^3.3.1, node-simctl@^3.8.0:
-  version "3.11.6"
-  resolved "https://registry.yarnpkg.com/node-simctl/-/node-simctl-3.11.6.tgz#9b975e3e4b036ad8d34d64b02e3f33b78bfb129b"
+  version "3.11.8"
+  resolved "https://registry.yarnpkg.com/node-simctl/-/node-simctl-3.11.8.tgz#cb2cf9039786f9742e34d7de2ca813021e319ed7"
   dependencies:
     appium-support "^2.4.0"
     appium-xcode "^3.1.0"
@@ -3863,8 +3863,8 @@ promise@^7.1.1:
     asap "~2.0.3"
 
 prop-types@^15.5.10, prop-types@^15.5.4:
-  version "15.6.0"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
+  version "15.6.1"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.3.1"
@@ -4604,19 +4604,27 @@ spawn-sync@^1.0.15:
     concat-stream "^1.4.7"
     os-shim "^0.1.2"
 
-spdx-correct@~1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-1.0.2.tgz#4b3073d933ff51f3912f03ac5519498a4150db40"
+spdx-correct@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-3.0.0.tgz#05a5b4d7153a195bc92c3c425b69f3b2a9524c82"
   dependencies:
-    spdx-license-ids "^1.0.2"
+    spdx-expression-parse "^3.0.0"
+    spdx-license-ids "^3.0.0"
 
-spdx-expression-parse@~1.0.0:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/spdx-expression-parse/-/spdx-expression-parse-1.0.4.tgz#9bdf2f20e1f40ed447fbe273266191fced51626c"
+spdx-exceptions@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/spdx-exceptions/-/spdx-exceptions-2.1.0.tgz#2c7ae61056c714a5b9b9b2b2af7d311ef5c78fe9"
 
-spdx-license-ids@^1.0.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz#c9df7a3424594ade6bd11900d596696dc06bac57"
+spdx-expression-parse@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/spdx-expression-parse/-/spdx-expression-parse-3.0.0.tgz#99e119b7a5da00e05491c9fa338b7904823b41d0"
+  dependencies:
+    spdx-exceptions "^2.1.0"
+    spdx-license-ids "^3.0.0"
+
+spdx-license-ids@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.0.tgz#7a7cd28470cc6d3a1cfe6d66886f6bc430d3ac87"
 
 sprintf-js@^1.0.3:
   version "1.1.1"
@@ -4954,8 +4962,8 @@ topo@1.x.x:
     hoek "2.x.x"
 
 tough-cookie@>=2.3.3, tough-cookie@~2.3.0, tough-cookie@~2.3.3:
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.3.tgz#0b618a5565b6dea90bf3425d04d55edc475a7561"
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.4.tgz#ec60cee38ac675063ffc97a5c18970578ee83655"
   dependencies:
     punycode "^1.4.1"
 
@@ -5147,11 +5155,11 @@ vali-date@^1.0.0:
   resolved "https://registry.yarnpkg.com/vali-date/-/vali-date-1.0.0.tgz#1b904a59609fb328ef078138420934f6b86709a6"
 
 validate-npm-package-license@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.1.tgz#2804babe712ad3379459acfbe24746ab2c303fbc"
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.3.tgz#81643bcbef1bdfecd4623793dc4648948ba98338"
   dependencies:
-    spdx-correct "~1.0.0"
-    spdx-expression-parse "~1.0.0"
+    spdx-correct "^3.0.0"
+    spdx-expression-parse "^3.0.0"
 
 vary@~1.0.1:
   version "1.0.1"
@@ -5293,11 +5301,11 @@ wordwrap@~0.0.2:
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
 
 worker-farm@^1.3.1:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/worker-farm/-/worker-farm-1.5.2.tgz#32b312e5dc3d5d45d79ef44acc2587491cd729ae"
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/worker-farm/-/worker-farm-1.5.4.tgz#4debbe46b40edefcc717ebde74a90b1ae1e909a1"
   dependencies:
-    errno "^0.1.4"
-    xtend "^4.0.1"
+    errno "~0.1.7"
+    xtend "~4.0.1"
 
 wrap-ansi@^2.0.0:
   version "2.1.0"
@@ -5342,7 +5350,7 @@ xmldom@0.1.x:
   version "0.1.27"
   resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
 
-"xtend@>=4.0.0 <4.1.0-0", xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.0, xtend@~4.0.1:
+"xtend@>=4.0.0 <4.1.0-0", xtend@^4.0.0, xtend@~4.0.0, xtend@~4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
